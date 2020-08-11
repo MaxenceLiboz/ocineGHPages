@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ocineGHPages/precache-manifest.0edb9ad1b7ae29839f0f21c21d0031e2.js"
+  "/ocineGHPages/precache-manifest.e6102c42683b3002ded42c39753fa4df.js"
 );
 
 self.addEventListener('message', (event) => {
