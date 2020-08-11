@@ -7,20 +7,20 @@ const Project = () => {
     return (
         <>
             <Grid container>
-                <Grid item sm={1} />
+                <Grid item md={1} />
 
                 <Grid
                     container
                     item
-                    sm={10}
-                    xs={12}
+                    md={10}
+                    sm={12}
                     style={{
                         backgroundColor: "whitesmoke",
                     }}
                     spacing={2}
                 >
                     {/* Picture of the all team */}
-                    <Grid item sm={12}>
+                    <Grid item md={12}>
                         <img
                             src={team}
                             alt="team"
@@ -32,7 +32,7 @@ const Project = () => {
                     </Grid>
 
                     {/* Project description */}
-                    <Grid item sm={12}>
+                    <Grid item md={12}>
                         <section className="projDes">
                             <h1>Notre projet</h1>
                             <h3>Breve description du projet</h3>
@@ -61,7 +61,7 @@ const Project = () => {
                     </Grid>
 
                     {/* 1st teammate */}
-                    <Grid item sm={6} style={{ textAlign: "center" }}>
+                    <Grid item md={6} style={{ textAlign: "center" }}>
                         <Cards
                             imgSrc={team}
                             title={"Alexandre Verplaetse"}
@@ -77,7 +77,7 @@ const Project = () => {
                     </Grid>
 
                     {/* 2st teammate */}
-                    <Grid item sm={6} style={{ textAlign: "center" }}>
+                    <Grid item md={6} style={{ textAlign: "center" }}>
                         <Cards
                             imgSrc={team}
                             title={"Maxence Liboz"}
@@ -92,7 +92,7 @@ const Project = () => {
                         />
                     </Grid>
                     {/* 3st teammate */}
-                    <Grid item sm={6} style={{ textAlign: "center" }}>
+                    <Grid item md={6} style={{ textAlign: "center" }}>
                         <Cards
                             imgSrc={team}
                             title={"Maxence Liboz"}
@@ -107,7 +107,7 @@ const Project = () => {
                         />
                     </Grid>
                     {/* 4st teammate */}
-                    <Grid item sm={6} style={{ textAlign: "center" }}>
+                    <Grid item md={6} style={{ textAlign: "center" }}>
                         <Cards
                             imgSrc={team}
                             title={"Alexandre Verplaetse"}
@@ -122,7 +122,7 @@ const Project = () => {
                         />
                     </Grid>
                 </Grid>
-                <Grid item sm={1} />
+                <Grid item md={1} />
             </Grid>
         </>
     );
