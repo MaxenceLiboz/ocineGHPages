@@ -1,0 +1,67 @@
+/* Change the color of the menu when mobile */
+.MuiBackdrop-root {
+    opacity: 0 !important;
+}
+.MuiDrawer-paper {
+    background-color: #252122 !important;
+}
+
+html {
+    background-color: #dbfaff;
+    font: inherit;
+}
+
+.border {
+    border-bottom: solid black 1px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.pad {
+    padding: 0 0 1em 3em;
+}
+
+.pad-top {
+    padding-top: 2em;
+}
+
+.pd-1 {
+    padding: 1em;
+}
+.pd-3 {
+    padding: 3em;
+}
+
+.justify {
+    text-align: justify;
+}
+
+/* Button */
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.alt {
+    background-color: #252122 !important;
+    border-color: #012122 !important;
+}
+.alt:hover {
+    background-color: #101111 !important;
+    border-color: #012122 !important;
+    box-shadow: none !important;
+}
+.alt:active {
+    box-shadow: none !important;
+    background-color: #101111 !important;
+    border-color: #012122 !important;
+}

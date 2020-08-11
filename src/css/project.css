@@ -1,0 +1,17 @@
+.presentationBox {
+    padding: 2em;
+}
+
+.projDes h1 {
+    font-size: 36px;
+}
+
+.projDes h3 {
+    font-style: italic;
+}
+
+.projDes h3,
+.projDes p {
+    color: rgba(0, 0, 0, 0.54);
+    font-weight: 300;
+}
