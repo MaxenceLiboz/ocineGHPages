@@ -72,7 +72,7 @@ const Project = () => {
                                     droit ...
                                 </p>
                             }
-                            pageURL="/"
+                            pageURL="/ocineGHPages/project"
                         />
                     </Grid>
 
@@ -88,7 +88,7 @@ const Project = () => {
                                     droit ..."
                                 </p>
                             }
-                            pageURL="/"
+                            pageURL="/ocineGHPages/project"
                         />
                     </Grid>
                     {/* 3st teammate */}
@@ -103,7 +103,7 @@ const Project = () => {
                                     droit ..."
                                 </p>
                             }
-                            pageURL="/"
+                            pageURL="/ocineGHPages/project"
                         />
                     </Grid>
                     {/* 4st teammate */}
@@ -118,7 +118,7 @@ const Project = () => {
                                     droit ...
                                 </p>
                             }
-                            pageURL="/"
+                            pageURL="/ocineGHPages/project"
                         />
                     </Grid>
                 </Grid>

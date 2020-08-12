@@ -3,10 +3,16 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useTheme } from "@material-ui/core/styles";
 import { useMediaQuery } from "@material-ui/core";
 import ButtonCss from "./CssButton";
+import { withRouter } from "react-router-dom";
 
-const Banner = () => {
+const Banner = (props) => {
     const theme = useTheme();
     const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
+
+    const { history } = props;
+    const handleClick = (pageURL) => {
+        history.push(pageURL);
+    };
 
     return (
         <>
@@ -76,13 +82,24 @@ const Banner = () => {
                     </section>
                     <section className="button col">
                         <ButtonCss variant="contained" color="primary">
-                            Acheter des maintenant
+                            <a
+                                href="https://www.eurocomswim.com/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                style={{
+                                    textDecoration: "none",
+                                    color: "white",
+                                }}
+                            >
+                                Acheter des maintenant
+                            </a>
                         </ButtonCss>
                         <ButtonCss
                             variant="contained"
                             color="primary"
                             className="alt"
                             style={{ marginTop: "1em" }}
+                            onClick={() => handleClick("/ocineGHPages/project")}
                         >
                             En savoir plus sur nous
                         </ButtonCss>
@@ -143,12 +160,24 @@ const Banner = () => {
                     </section>
                     <section className="button">
                         <ButtonCss variant="contained" color="primary">
-                            Acheter des maintenant
+                            <a
+                                href="https://www.eurocomswim.com/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                style={{
+                                    textDecoration: "none",
+                                    color: "white",
+                                }}
+                            >
+                                Acheter des maintenant
+                            </a>
                         </ButtonCss>
+
                         <ButtonCss
                             variant="contained"
                             color="primary"
                             className="alt"
+                            onClick={() => handleClick("/ocineGHPages/project")}
                         >
                             En savoir plus sur nous
                         </ButtonCss>
@@ -159,4 +188,4 @@ const Banner = () => {
     );
 };
 
-export default Banner;
+export default withRouter(Banner);

@@ -16,13 +16,11 @@ const Cards = (props) => {
         history.push(pageURL ? pageURL : "/");
     };
 
-    console.log(props);
-
     return (
         <>
             <Card>
                 <Button
-                    onClick={() => handleClick("/")}
+                    onClick={() => handleClick()}
                     disableRipple
                     disableFocusRipple
                     style={{ background: "transparent" }}
