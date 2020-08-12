@@ -16,7 +16,7 @@ const Products = () => {
                     </div>
 
                     <Grid container justify="center" spacing={2}>
-                        <Grid item md={4} sm={6} xs={9}>
+                        <Grid item md={4} sm={6} xs={12}>
                             <Cards
                                 imgSrc={SuitH}
                                 title={"Maillot de bain homme"}
@@ -25,7 +25,7 @@ const Products = () => {
                                 button="En savoir plus"
                             />
                         </Grid>
-                        <Grid item md={4} sm={6} xs={9}>
+                        <Grid item md={4} sm={6} xs={12}>
                             <Cards
                                 imgSrc={SuitF}
                                 title={"Maillot de bain femme"}
@@ -34,7 +34,7 @@ const Products = () => {
                                 button="En savoir plus"
                             />
                         </Grid>
-                        <Grid item md={4} sm={6} xs={9}>
+                        <Grid item md={4} sm={6} xs={12}>
                             <Cards
                                 imgSrc={Cap}
                                 title={"Bonnet de bain"}

@@ -6,7 +6,7 @@ import Cards from "./Cards";
 const Project = () => {
     return (
         <>
-            <Grid container>
+            <Grid container style={{ paddingBottom: "2em" }}>
                 <Grid item md={1} />
 
                 <Grid
