@@ -21,7 +21,7 @@ const Products = () => {
                                 imgSrc={SuitH}
                                 title={"Maillot de bain homme"}
                                 description={"Breve description de l'article"}
-                                pageURL="/"
+                                pageURL="/ocineGHPages"
                                 button="En savoir plus"
                             />
                         </Grid>
@@ -30,7 +30,7 @@ const Products = () => {
                                 imgSrc={SuitF}
                                 title={"Maillot de bain femme"}
                                 description={"Breve description de l'article"}
-                                pageURL="/"
+                                pageURL="/ocineGHPages"
                                 button="En savoir plus"
                             />
                         </Grid>
@@ -39,7 +39,7 @@ const Products = () => {
                                 imgSrc={Cap}
                                 title={"Bonnet de bain"}
                                 description={"Breve description de l'article"}
-                                pageURL="/"
+                                pageURL="/ocineGHPages"
                                 button="En savoir plus"
                             />
                         </Grid>
