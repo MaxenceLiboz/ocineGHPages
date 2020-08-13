@@ -113,18 +113,21 @@ const Navbar = (props) => {
                     <div className={classes.menuItem}>
                         <Button
                             className={`${classes.italic} ${classes.menu} ${classes.dropdown}`}
+                            onClick={() =>
+                                handleMenuClick("/ocineGHPages/MSuit")
+                            }
                         >
                             Maillots de bain homme
                         </Button>
                         <Button
                             className={`${classes.italic} ${classes.menu} ${classes.dropdown}`}
                         >
-                            Maillots de bain homme
+                            Maillots de bain femme
                         </Button>
                         <Button
                             className={`${classes.italic} ${classes.menu} ${classes.dropdown}`}
                         >
-                            Maillots de bain homme
+                            Accesoires
                         </Button>
                     </div>
                 </List>
@@ -230,6 +233,11 @@ const Navbar = (props) => {
                                             <Button
                                                 className={classes.popButton}
                                                 style={{ fontSize: "10px" }}
+                                                onClick={() =>
+                                                    handleMenuClick(
+                                                        "/ocineGHPages/MSuit"
+                                                    )
+                                                }
                                             >
                                                 Maillots de bain homme
                                             </Button>

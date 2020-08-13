@@ -14,37 +14,23 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import ImgSlide from "./components/ImgSlide";
 import { Grid } from "@material-ui/core";
+import MSuit from "./components/MSuit";
 
 const App = () => {
     return (
         <BrowserRouter>
-            <Grid container>
-                <div className="root">
-                    <Grid item sm={12}>
-                        <Header />
-                    </Grid>
-                    <Grid item sm={12}>
-                        <Route exact path="/ocineGHPages" component={Home} />
-                    </Grid>
-                    <Grid item sm={12}>
-                        <Route
-                            exact
-                            path="/ocineGHPages/project"
-                            component={Project}
-                        />
-                    </Grid>
-                    <Grid item sm={12}>
-                        <Route
-                            exact
-                            path="/ocineGHPages/imgSlide"
-                            component={ImgSlide}
-                        />
-                    </Grid>
-                    <Grid item sm={12}>
-                        <Footer />
-                    </Grid>
-                </div>
-            </Grid>
+            <div className="root">
+                <Header />
+                <Route exact path="/" component={Home} />
+                <Route exact path="/ocineGHPages/project" component={Project} />
+                <Route
+                    exact
+                    path="/ocineGHPages/imgSlide"
+                    component={ImgSlide}
+                />
+                <Route exact path="/ocineGHPages/MSuit" component={MSuit} />
+                <Footer />
+            </div>
         </BrowserRouter>
     );
 };
