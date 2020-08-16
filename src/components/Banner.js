@@ -155,7 +155,9 @@ const Banner = (props) => {
                             <header>
                                 <h2>Caracteristique</h2>
                             </header>
-                            <p>Approfondir la carac mis en avant.</p>
+                            <p style={{ paddingLeft: "1em" }}>
+                                Approfondir la carac mis en avant.
+                            </p>
                         </section>
                     </section>
                     <section className="button">
