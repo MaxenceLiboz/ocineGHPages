@@ -13,16 +13,19 @@ import Footer from "./components/Footer";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import ImgSlide from "./components/ImgSlide";
-import { Grid } from "@material-ui/core";
 import MSuit from "./components/MSuit";
+import constants from "./constants";
+
+const homepage = constants.homepage;
+const project = constants.project;
 
 const App = () => {
     return (
         <BrowserRouter>
             <div className="root">
                 <Header />
-                <Route exact path="/" component={Home} />
-                <Route exact path="/ocineGHPages/project" component={Project} />
+                <Route exact path={homepage} component={Home} />
+                <Route exact path={homepage + project} component={Project} />
                 <Route
                     exact
                     path="/ocineGHPages/imgSlide"

@@ -5,6 +5,10 @@ import { useMediaQuery, Button, Popover, Toolbar } from "@material-ui/core";
 import Drawer from "@material-ui/core/Drawer";
 import List from "@material-ui/core/List";
 import Divider from "@material-ui/core/Divider";
+import constants from "../constants";
+
+const homepage = constants.homepage;
+const project = constants.project;
 
 const useStyles = makeStyles((theme) => ({
     /* Mobile style */
@@ -94,7 +98,7 @@ const Navbar = (props) => {
                     color="inherit"
                     className={classes.italic}
                     style={{ fontSize: "11px" }}
-                    onClick={() => handleMenuClick("/ocineGHPages")}
+                    onClick={() => handleMenuClick(homepage)}
                 >
                     Home
                 </Button>
@@ -113,9 +117,7 @@ const Navbar = (props) => {
                     <div className={classes.menuItem}>
                         <Button
                             className={`${classes.italic} ${classes.menu} ${classes.dropdown}`}
-                            onClick={() =>
-                                handleMenuClick("/ocineGHPages/MSuit")
-                            }
+                            onClick={() => handleMenuClick(homepage + "/MSuit")}
                         >
                             Maillots de bain homme
                         </Button>
@@ -138,7 +140,7 @@ const Navbar = (props) => {
                     color="inherit"
                     className={classes.italic}
                     style={{ fontSize: "11px" }}
-                    onClick={() => handleMenuClick("/ocineGHPages/project")}
+                    onClick={() => handleMenuClick(homepage + project)}
                 >
                     Notre projet
                 </Button>
@@ -192,7 +194,7 @@ const Navbar = (props) => {
                                     backgroundColor: "#c4001d",
                                     color: "white",
                                 }}
-                                onClick={() => handleMenuClick("/ocineGHPages")}
+                                onClick={() => handleMenuClick(homepage)}
                             >
                                 Home
                             </Button>
@@ -235,7 +237,7 @@ const Navbar = (props) => {
                                                 style={{ fontSize: "10px" }}
                                                 onClick={() =>
                                                     handleMenuClick(
-                                                        "/ocineGHPages/MSuit"
+                                                        homepage + project
                                                     )
                                                 }
                                             >
@@ -261,7 +263,7 @@ const Navbar = (props) => {
                                 className={`${classes.butStyle} ${classes.italic}`}
                                 style={{ fontSize: "10px" }}
                                 onClick={() =>
-                                    handleMenuClick("/ocineGHPages/project")
+                                    handleMenuClick(homepage + project)
                                 }
                             >
                                 Notre projet
