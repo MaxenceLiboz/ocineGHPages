@@ -6,6 +6,8 @@ import Footer from "./components/Footer";
 import ImgSlide from "./components/ImgSlide";
 import MSuit from "./components/MSuit";
 import FSuit from "./components/FSuit";
+import Accessories from "./components/Accessories";
+import ScrollToTop from "react-router-scroll-top";
 
 import { BrowserRouter, Route } from "react-router-dom";
 import { Grid } from "@material-ui/core";
@@ -21,7 +23,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 import constants from "./constants";
-import Accessories from "./components/Accessories";
 
 const homepage = constants.homepage;
 const project = constants.project;
@@ -32,6 +33,7 @@ const accessories = constants.accessories;
 const App = () => {
     return (
         <BrowserRouter>
+            <ScrollToTop />
             <Grid container className="root">
                 <Grid item xs={12}>
                     <Header />

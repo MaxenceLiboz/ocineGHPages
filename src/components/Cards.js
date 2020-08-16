@@ -10,7 +10,15 @@ import ButtonCss from "./CssButton";
 import Suit from "../images/boxerBlue.jpg";
 
 const Cards = (props) => {
-    const { history, imgSrc, title, description, pageURL, button } = props;
+    const {
+        history,
+        imgSrc,
+        title,
+        description,
+        pageURL,
+        button,
+        styles,
+    } = props;
 
     const handleClick = () => {
         history.push(pageURL ? pageURL : "/");
@@ -29,6 +37,7 @@ const Cards = (props) => {
                         component="img"
                         image={imgSrc ? imgSrc : Suit}
                         title="boxerBlue"
+                        style={styles}
                     />
                 </Button>
                 <CardContent
