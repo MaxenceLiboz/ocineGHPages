@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/ocineGHPages/static/css/main.758a008b.chunk.css",
-    "main.js": "/ocineGHPages/static/js/main.03175875.chunk.js",
-    "main.js.map": "/ocineGHPages/static/js/main.03175875.chunk.js.map",
+    "main.css": "/ocineGHPages/static/css/main.374d8909.chunk.css",
+    "main.js": "/ocineGHPages/static/js/main.93221a0e.chunk.js",
+    "main.js.map": "/ocineGHPages/static/js/main.93221a0e.chunk.js.map",
     "runtime-main.js": "/ocineGHPages/static/js/runtime-main.796d4aaa.js",
     "runtime-main.js.map": "/ocineGHPages/static/js/runtime-main.796d4aaa.js.map",
     "static/css/2.1295bded.chunk.css": "/ocineGHPages/static/css/2.1295bded.chunk.css",
-    "static/js/2.eb5817ad.chunk.js": "/ocineGHPages/static/js/2.eb5817ad.chunk.js",
-    "static/js/2.eb5817ad.chunk.js.map": "/ocineGHPages/static/js/2.eb5817ad.chunk.js.map",
+    "static/js/2.3f0c4a5d.chunk.js": "/ocineGHPages/static/js/2.3f0c4a5d.chunk.js",
+    "static/js/2.3f0c4a5d.chunk.js.map": "/ocineGHPages/static/js/2.3f0c4a5d.chunk.js.map",
     "index.html": "/ocineGHPages/index.html",
-    "precache-manifest.32b86476ff35551ac1c42063ad04605a.js": "/ocineGHPages/precache-manifest.32b86476ff35551ac1c42063ad04605a.js",
+    "precache-manifest.2acb5bb54214dfda1092ec3c8fae0266.js": "/ocineGHPages/precache-manifest.2acb5bb54214dfda1092ec3c8fae0266.js",
     "service-worker.js": "/ocineGHPages/service-worker.js",
     "static/css/2.1295bded.chunk.css.map": "/ocineGHPages/static/css/2.1295bded.chunk.css.map",
-    "static/css/main.758a008b.chunk.css.map": "/ocineGHPages/static/css/main.758a008b.chunk.css.map",
-    "static/js/2.eb5817ad.chunk.js.LICENSE.txt": "/ocineGHPages/static/js/2.eb5817ad.chunk.js.LICENSE.txt",
+    "static/css/main.374d8909.chunk.css.map": "/ocineGHPages/static/css/main.374d8909.chunk.css.map",
+    "static/js/2.3f0c4a5d.chunk.js.LICENSE.txt": "/ocineGHPages/static/js/2.3f0c4a5d.chunk.js.LICENSE.txt",
     "static/media/banner.css": "/ocineGHPages/static/media/blueOcean.43aeec46.jpg",
     "static/media/boxerBlue.jpg": "/ocineGHPages/static/media/boxerBlue.a5df8fa2.jpg",
     "static/media/capFR.jpg": "/ocineGHPages/static/media/capFR.7be9478e.jpg",
@@ -24,8 +24,8 @@
   "entrypoints": [
     "static/js/runtime-main.796d4aaa.js",
     "static/css/2.1295bded.chunk.css",
-    "static/js/2.eb5817ad.chunk.js",
-    "static/css/main.758a008b.chunk.css",
-    "static/js/main.03175875.chunk.js"
+    "static/js/2.3f0c4a5d.chunk.js",
+    "static/css/main.374d8909.chunk.css",
+    "static/js/main.93221a0e.chunk.js"
   ]
 }
