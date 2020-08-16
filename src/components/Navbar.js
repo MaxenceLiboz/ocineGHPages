@@ -9,6 +9,7 @@ import constants from "../constants";
 
 const homepage = constants.homepage;
 const project = constants.project;
+const suitM = constants.suitM;
 
 const useStyles = makeStyles((theme) => ({
     /* Mobile style */
@@ -117,7 +118,7 @@ const Navbar = (props) => {
                     <div className={classes.menuItem}>
                         <Button
                             className={`${classes.italic} ${classes.menu} ${classes.dropdown}`}
-                            onClick={() => handleMenuClick(homepage + "/MSuit")}
+                            onClick={() => handleMenuClick(homepage + suitM)}
                         >
                             Maillots de bain homme
                         </Button>
@@ -237,7 +238,7 @@ const Navbar = (props) => {
                                                 style={{ fontSize: "10px" }}
                                                 onClick={() =>
                                                     handleMenuClick(
-                                                        homepage + project
+                                                        homepage + suitM
                                                     )
                                                 }
                                             >
