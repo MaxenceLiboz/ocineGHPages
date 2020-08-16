@@ -1,9 +1,9 @@
 import React from "react";
 import { Grid } from "@material-ui/core";
 import Cards from "./Cards";
-import SuitH from "../images/boxerBlue.jpg";
+import CapFR from "../images/capFR.jpg";
 
-const MSuit = () => {
+const Accessories = () => {
     return (
         <>
             <Grid container className="pd-3">
@@ -18,14 +18,14 @@ const MSuit = () => {
                 >
                     <Grid item sm={12}>
                         <div className="title">
-                            <h2>Nos Maillots de bains homme</h2>
+                            <h2>Nos accesoires</h2>
                         </div>
                     </Grid>
 
                     <Grid item md={4} sm={12} xs={12}>
                         <Cards
-                            imgSrc={SuitH}
-                            title={"Nom du maillot de bain"}
+                            imgSrc={CapFR}
+                            title={"Nom du bonnet"}
                             description={"Breve description de l'article"}
                             pageURL="/ocineGHPages"
                             button="En savoir plus"
@@ -38,4 +38,4 @@ const MSuit = () => {
     );
 };
 
-export default MSuit;
+export default Accessories;

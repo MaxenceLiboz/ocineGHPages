@@ -1,25 +1,33 @@
 import React from "react";
 import Header from "./components/Header";
-import { BrowserRouter, Route } from "react-router-dom";
 import Home from "./components/Home";
 import Project from "./components/Project";
+import Footer from "./components/Footer";
+import ImgSlide from "./components/ImgSlide";
+import MSuit from "./components/MSuit";
+import FSuit from "./components/FSuit";
+
+import { BrowserRouter, Route } from "react-router-dom";
+import { Grid } from "@material-ui/core";
 import "./components/FontAwesomeIcons/IconsLibrary";
+
 import "./App.css";
 import "./css/banner.css";
 import "./css/footer.css";
 import "./css/products.css";
 import "./css/project.css";
-import Footer from "./components/Footer";
+
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import ImgSlide from "./components/ImgSlide";
-import MSuit from "./components/MSuit";
+
 import constants from "./constants";
-import { Grid } from "@material-ui/core";
+import Accessories from "./components/Accessories";
 
 const homepage = constants.homepage;
 const project = constants.project;
 const suitM = constants.suitM;
+const suitF = constants.suitF;
+const accessories = constants.accessories;
 
 const App = () => {
     return (
@@ -47,6 +55,16 @@ const App = () => {
                 </Grid>
                 <Grid item sm={12}>
                     <Route exact path={homepage + suitM} component={MSuit} />
+                </Grid>
+                <Grid item sm={12}>
+                    <Route exact path={homepage + suitF} component={FSuit} />
+                </Grid>
+                <Grid item sm={12}>
+                    <Route
+                        exact
+                        path={homepage + accessories}
+                        component={Accessories}
+                    />
                 </Grid>
                 <Grid item sm={12}>
                     <Footer />

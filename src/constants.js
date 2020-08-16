@@ -1,9 +1,9 @@
-import React from "react";
-
 const constants = {
     homepage: "/ocineGHPages",
     project: "/project",
     suitM: "/MSuit",
+    suitF: "/FSuit",
+    accessories: "/accessories",
 };
 
 export default constants;

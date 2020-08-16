@@ -10,6 +10,8 @@ import constants from "../constants";
 const homepage = constants.homepage;
 const project = constants.project;
 const suitM = constants.suitM;
+const suitF = constants.suitF;
+const accessories = constants.accessories;
 
 const useStyles = makeStyles((theme) => ({
     /* Mobile style */
@@ -124,11 +126,15 @@ const Navbar = (props) => {
                         </Button>
                         <Button
                             className={`${classes.italic} ${classes.menu} ${classes.dropdown}`}
+                            onClick={() => handleMenuClick(homepage + suitF)}
                         >
                             Maillots de bain femme
                         </Button>
                         <Button
                             className={`${classes.italic} ${classes.menu} ${classes.dropdown}`}
+                            onClick={() =>
+                                handleMenuClick(homepage + accessories)
+                            }
                         >
                             Accesoires
                         </Button>
@@ -247,12 +253,22 @@ const Navbar = (props) => {
                                             <Button
                                                 className={classes.popButton}
                                                 style={{ fontSize: "10px" }}
+                                                onClick={() =>
+                                                    handleMenuClick(
+                                                        homepage + suitF
+                                                    )
+                                                }
                                             >
                                                 Maillots de bain femme
                                             </Button>
                                             <Button
                                                 className={classes.popButton}
                                                 style={{ fontSize: "10px" }}
+                                                onClick={() =>
+                                                    handleMenuClick(
+                                                        homepage + accessories
+                                                    )
+                                                }
                                             >
                                                 Accessoires
                                             </Button>
