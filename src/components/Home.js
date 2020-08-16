@@ -7,10 +7,10 @@ const Home = () => {
     return (
         <>
             <Grid container>
-                <Grid item sm={12}>
+                <Grid item xs={12}>
                     <Banner />
                 </Grid>
-                <Grid item sm={12}>
+                <Grid item xs={12}>
                     <Products />
                 </Grid>
             </Grid>
