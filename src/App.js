@@ -33,40 +33,40 @@ const App = () => {
     return (
         <BrowserRouter>
             <Grid container className="root">
-                <Grid item sm={12}>
+                <Grid item xs={12}>
                     <Header />
                 </Grid>
-                <Grid item sm={12}>
+                <Grid item xs={12}>
                     <Route exact path={homepage} component={Home} />
                 </Grid>
-                <Grid item sm={12}>
+                <Grid item xs={12}>
                     <Route
                         exact
                         path={homepage + project}
                         component={Project}
                     />
                 </Grid>
-                <Grid item sm={12}>
+                <Grid item xs={12}>
                     <Route
                         exact
                         path={homepage + "/ImgSlide"}
                         component={ImgSlide}
                     />
                 </Grid>
-                <Grid item sm={12}>
+                <Grid item xs={12}>
                     <Route exact path={homepage + suitM} component={MSuit} />
                 </Grid>
-                <Grid item sm={12}>
+                <Grid item xs={12}>
                     <Route exact path={homepage + suitF} component={FSuit} />
                 </Grid>
-                <Grid item sm={12}>
+                <Grid item xs={12}>
                     <Route
                         exact
                         path={homepage + accessories}
                         component={Accessories}
                     />
                 </Grid>
-                <Grid item sm={12}>
+                <Grid item xs={12}>
                     <Footer />
                 </Grid>
             </Grid>
