@@ -27,7 +27,7 @@ const FSuit = () => {
                             imgSrc={SuitF}
                             title={"Nom du maillot de bain"}
                             description={"Breve description de l'article"}
-                            pageURL="/ocineGHPages"
+                            pageURL="https://www.eurocomswim.com/fr/maillots-loisirs-plage/arena/maillot-de-bain-1-piece-arena-w-multicolor-stripes-challenge-back-one-piece-p-3476.htm?coul_att_detailID=572"
                             button="En savoir plus"
                         />
                     </Grid>

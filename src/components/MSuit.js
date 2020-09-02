@@ -27,7 +27,7 @@ const MSuit = () => {
                             imgSrc={SuitH}
                             title={"Nom du maillot de bain"}
                             description={"Breve description de l'article"}
-                            pageURL="/ocineGHPages"
+                            pageURL="https://www.eurocomswim.com/fr/maillots-loisirs-plage/arena/boxer-de-bain-arena-m-multicolor-stripes-low-waist-short-p-3487.htm?coul_att_detailID=572"
                             button="En savoir plus"
                         />
                     </Grid>

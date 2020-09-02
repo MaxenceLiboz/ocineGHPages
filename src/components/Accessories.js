@@ -27,7 +27,7 @@ const Accessories = () => {
                             imgSrc={CapFR}
                             title={"Nom du bonnet"}
                             description={"Breve description de l'article"}
-                            pageURL="/ocineGHPages"
+                            pageURL="https://www.eurocomswim.com/fr/adultes/arena/bonnet-de-bain-arena-flags-silicone-cap-france-p-3489.htm?coul_att_detailID=572"
                             button="En savoir plus"
                         />
                     </Grid>
