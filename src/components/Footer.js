@@ -1,7 +1,7 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useTheme } from "@material-ui/core/styles";
 import { useMediaQuery } from "@material-ui/core";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Footer = () => {
     const theme = useTheme();
