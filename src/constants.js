@@ -1,5 +1,5 @@
 const constants = {
-    homepage: "/ocineGHPages",
+    homepage: "/",
     project: "/project",
     suitM: "/MSuit",
     suitF: "/FSuit",

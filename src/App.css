@@ -36,6 +36,10 @@ html {
 .pd-1 {
     padding: 1em;
 }
+
+.pdt-1 {
+    padding-top: 1em;
+}
 .pd-3 {
     padding: 3em;
 }

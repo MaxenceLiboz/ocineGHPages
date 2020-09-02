@@ -9,7 +9,7 @@ import FSuit from "./components/FSuit";
 import Accessories from "./components/Accessories";
 import ScrollToTop from "react-router-scroll-top";
 
-import { BrowserRouter, Route } from "react-router-dom";
+import { HashRouter as Router, Route } from "react-router-dom";
 import { Grid } from "@material-ui/core";
 import "./components/FontAwesomeIcons/IconsLibrary";
 
@@ -32,7 +32,7 @@ const accessories = constants.accessories;
 
 const App = () => {
     return (
-        <BrowserRouter>
+        <Router>
             <ScrollToTop />
             <Grid container className="root">
                 <Grid item xs={12}>
@@ -72,7 +72,7 @@ const App = () => {
                     <Footer />
                 </Grid>
             </Grid>
-        </BrowserRouter>
+        </Router>
     );
 };
 
