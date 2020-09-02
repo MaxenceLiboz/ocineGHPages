@@ -86,7 +86,7 @@ const Banner = (props) => {
                     <section className="button col">
                         <ButtonCss variant="contained" color="primary">
                             <a
-                                href="https://www.eurocomswim.com/"
+                                href="https://www.eurocomswim.com/fr/arena-m-52.htm"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 style={{
