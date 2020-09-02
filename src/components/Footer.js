@@ -237,10 +237,10 @@ const Footer = () => {
                                 <Grid item xs={4} />
                                 <Grid item xs={8} container className="pdt-1">
                                     <Grid item xs={4}>
-                                        <h3>Addresse</h3>
+                                        <h3 className="m2vh">Addresse</h3>
                                     </Grid>
                                     <Grid item xs={8}>
-                                        <p>
+                                        <p className="m21vh">
                                             Untitled Incorporated
                                             <br />
                                             1234 Somewhere Road Suite
@@ -252,10 +252,10 @@ const Footer = () => {
                                 <Grid item xs={4} />
                                 <Grid className="next" item xs={8} container>
                                     <Grid item xs={4}>
-                                        <h3>Email</h3>
+                                        <h3 className="m2vh">Email</h3>
                                     </Grid>
                                     <Grid item xs={8}>
-                                        <p>
+                                        <p className="m21vh">
                                             <a href="mailto: ocinabrand@gmail.com">
                                                 ocinabrand@gmail.com
                                             </a>
@@ -265,10 +265,10 @@ const Footer = () => {
                                 <Grid item xs={4} />
                                 <Grid className="next" item xs={8} container>
                                     <Grid item xs={4}>
-                                        <h3>Téléphone</h3>
+                                        <h3 className="m2vh">Téléphone</h3>
                                     </Grid>
                                     <Grid item xs={8}>
-                                        <p>060000000</p>
+                                        <p className="m21vh">060000000</p>
                                     </Grid>
                                 </Grid>
                             </Grid>
