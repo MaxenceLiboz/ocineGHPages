@@ -4,6 +4,9 @@ import { useTheme } from "@material-ui/core/styles";
 import { useMediaQuery } from "@material-ui/core";
 import ButtonCss from "./CssButton";
 import { withRouter } from "react-router-dom";
+import Constants from "../constants";
+
+const project = Constants.project;
 
 const Banner = (props) => {
     const theme = useTheme();
@@ -99,7 +102,7 @@ const Banner = (props) => {
                             color="primary"
                             className="alt"
                             style={{ marginTop: "1em" }}
-                            onClick={() => handleClick("/ocineGHPages/project")}
+                            onClick={() => handleClick(project)}
                         >
                             En savoir plus sur nous
                         </ButtonCss>
@@ -179,7 +182,7 @@ const Banner = (props) => {
                             variant="contained"
                             color="primary"
                             className="alt"
-                            onClick={() => handleClick("/ocineGHPages/project")}
+                            onClick={() => handleClick(project)}
                         >
                             En savoir plus sur nous
                         </ButtonCss>

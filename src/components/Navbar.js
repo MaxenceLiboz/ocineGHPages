@@ -120,21 +120,19 @@ const Navbar = (props) => {
                     <div className={classes.menuItem}>
                         <Button
                             className={`${classes.italic} ${classes.menu} ${classes.dropdown}`}
-                            onClick={() => handleMenuClick(homepage + suitM)}
+                            onClick={() => handleMenuClick(suitM)}
                         >
                             Maillots de bain homme
                         </Button>
                         <Button
                             className={`${classes.italic} ${classes.menu} ${classes.dropdown}`}
-                            onClick={() => handleMenuClick(homepage + suitF)}
+                            onClick={() => handleMenuClick(suitF)}
                         >
                             Maillots de bain femme
                         </Button>
                         <Button
                             className={`${classes.italic} ${classes.menu} ${classes.dropdown}`}
-                            onClick={() =>
-                                handleMenuClick(homepage + accessories)
-                            }
+                            onClick={() => handleMenuClick(accessories)}
                         >
                             Accesoires
                         </Button>
@@ -147,7 +145,7 @@ const Navbar = (props) => {
                     color="inherit"
                     className={classes.italic}
                     style={{ fontSize: "11px" }}
-                    onClick={() => handleMenuClick(homepage + project)}
+                    onClick={() => handleMenuClick(project)}
                 >
                     Notre projet
                 </Button>
@@ -243,9 +241,7 @@ const Navbar = (props) => {
                                                 className={classes.popButton}
                                                 style={{ fontSize: "10px" }}
                                                 onClick={() =>
-                                                    handleMenuClick(
-                                                        homepage + suitM
-                                                    )
+                                                    handleMenuClick(suitM)
                                                 }
                                             >
                                                 Maillots de bain homme
@@ -254,9 +250,7 @@ const Navbar = (props) => {
                                                 className={classes.popButton}
                                                 style={{ fontSize: "10px" }}
                                                 onClick={() =>
-                                                    handleMenuClick(
-                                                        homepage + suitF
-                                                    )
+                                                    handleMenuClick(suitF)
                                                 }
                                             >
                                                 Maillots de bain femme
@@ -265,9 +259,7 @@ const Navbar = (props) => {
                                                 className={classes.popButton}
                                                 style={{ fontSize: "10px" }}
                                                 onClick={() =>
-                                                    handleMenuClick(
-                                                        homepage + accessories
-                                                    )
+                                                    handleMenuClick(accessories)
                                                 }
                                             >
                                                 Accessoires
@@ -279,9 +271,7 @@ const Navbar = (props) => {
                             <Button
                                 className={`${classes.butStyle} ${classes.italic}`}
                                 style={{ fontSize: "10px" }}
-                                onClick={() =>
-                                    handleMenuClick(homepage + project)
-                                }
+                                onClick={() => handleMenuClick(project)}
                             >
                                 Notre projet
                             </Button>

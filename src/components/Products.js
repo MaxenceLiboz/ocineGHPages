@@ -21,7 +21,7 @@ const Products = () => {
                                 imgSrc={SuitH}
                                 title={"Maillot de bain homme"}
                                 description={"Breve description de l'article"}
-                                pageURL="/ocineGHPages"
+                                pageURL="https://www.eurocomswim.com/fr/maillots-loisirs-plage/arena/boxer-de-bain-arena-m-multicolor-stripes-low-waist-short-p-3487.htm?coul_att_detailID=572"
                                 button="En savoir plus"
                             />
                         </Grid>
@@ -30,7 +30,7 @@ const Products = () => {
                                 imgSrc={SuitF}
                                 title={"Maillot de bain femme"}
                                 description={"Breve description de l'article"}
-                                pageURL="/ocineGHPages"
+                                pageURL="https://www.eurocomswim.com/fr/maillots-loisirs-plage/arena/maillot-de-bain-1-piece-arena-w-multicolor-stripes-challenge-back-one-piece-p-3476.htm?coul_att_detailID=572"
                                 button="En savoir plus"
                             />
                         </Grid>
@@ -39,7 +39,7 @@ const Products = () => {
                                 imgSrc={Cap}
                                 title={"Bonnet de bain"}
                                 description={"Breve description de l'article"}
-                                pageURL="/ocineGHPages"
+                                pageURL="https://www.eurocomswim.com/fr/adultes/arena/bonnet-de-bain-arena-flags-silicone-cap-france-p-3489.htm?coul_att_detailID=572"
                                 button="En savoir plus"
                             />
                         </Grid>

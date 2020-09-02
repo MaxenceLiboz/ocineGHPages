@@ -3,7 +3,6 @@ import Header from "./components/Header";
 import Home from "./components/Home";
 import Project from "./components/Project";
 import Footer from "./components/Footer";
-import ImgSlide from "./components/ImgSlide";
 import MSuit from "./components/MSuit";
 import FSuit from "./components/FSuit";
 import Accessories from "./components/Accessories";
@@ -42,32 +41,19 @@ const App = () => {
                     <Route exact path={homepage} component={Home} />
                 </Grid>
                 <Grid item xs={12}>
-                    <Route
-                        exact
-                        path={homepage + project}
-                        component={Project}
-                    />
+                    <Route exact path={project} component={Project} />
+                </Grid>
+
+                <Grid item xs={12}>
+                    <Route exact path={suitM} component={MSuit} />
                 </Grid>
                 <Grid item xs={12}>
-                    <Route
-                        exact
-                        path={homepage + "/ImgSlide"}
-                        component={ImgSlide}
-                    />
+                    <Route exact path={suitF} component={FSuit} />
                 </Grid>
                 <Grid item xs={12}>
-                    <Route exact path={homepage + suitM} component={MSuit} />
+                    <Route exact path={accessories} component={Accessories} />
                 </Grid>
-                <Grid item xs={12}>
-                    <Route exact path={homepage + suitF} component={FSuit} />
-                </Grid>
-                <Grid item xs={12}>
-                    <Route
-                        exact
-                        path={homepage + accessories}
-                        component={Accessories}
-                    />
-                </Grid>
+
                 <Grid item xs={12}>
                     <Footer />
                 </Grid>

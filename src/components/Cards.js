@@ -8,38 +8,28 @@ import Typography from "@material-ui/core/Typography";
 import { withRouter } from "react-router-dom";
 import ButtonCss from "./CssButton";
 import Suit from "../images/boxerBlue.jpg";
+import "../css/cards.css";
 
 const Cards = (props) => {
-    const {
-        history,
-        imgSrc,
-        title,
-        description,
-        pageURL,
-        button,
-        styles,
-    } = props;
-
-    const handleClick = () => {
-        history.push(pageURL ? pageURL : "/");
-    };
+    const { imgSrc, title, description, pageURL, button, styles } = props;
 
     return (
         <>
             <Card>
-                <Button
-                    onClick={() => handleClick()}
-                    disableRipple
-                    disableFocusRipple
-                    style={{ background: "transparent" }}
-                >
-                    <CardMedia
-                        component="img"
-                        image={imgSrc ? imgSrc : Suit}
-                        title="boxerBlue"
-                        style={styles}
-                    />
-                </Button>
+                <a href={pageURL ? pageURL : "/"}>
+                    <Button
+                        disableRipple
+                        disableFocusRipple
+                        style={{ background: "transparent" }}
+                    >
+                        <CardMedia
+                            component="img"
+                            image={imgSrc ? imgSrc : Suit}
+                            title="boxerBlue"
+                            style={styles}
+                        />
+                    </Button>
+                </a>
                 <CardContent
                     style={{ backgroundColor: "whitesmoke", minHeight: "6em" }}
                 >
@@ -70,9 +60,8 @@ const Cards = (props) => {
                             className="alt"
                             variant="contained"
                             color="primary"
-                            onClick={() => handleClick()}
                         >
-                            {button}
+                            <a href={pageURL ? pageURL : "/"}>{button}</a>
                         </ButtonCss>
                     ) : (
                         ""
