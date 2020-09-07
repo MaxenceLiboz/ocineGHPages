@@ -64,7 +64,7 @@ const Project = () => {
                     <Grid item md={6} style={{ textAlign: "center" }}>
                         <Cards
                             imgSrc={team}
-                            title={"Alexandre Verplaetse"}
+                            title={<p>Alexandre Verplaetse</p>}
                             description={
                                 <p className="justify">
                                     Nageur de haut niveau, étudiant en droit.
@@ -80,7 +80,7 @@ const Project = () => {
                     <Grid item md={6} style={{ textAlign: "center" }}>
                         <Cards
                             imgSrc={team}
-                            title={"Maxence Liboz"}
+                            title={<p>Alexandre Verplaetse</p>}
                             description={
                                 <p className="justify">
                                     Nageur de haut niveau, étudiant en droit.
@@ -95,7 +95,7 @@ const Project = () => {
                     <Grid item md={6} style={{ textAlign: "center" }}>
                         <Cards
                             imgSrc={team}
-                            title={"Maxence Liboz"}
+                            title={<p>Alexandre Verplaetse</p>}
                             description={
                                 <p className="justify">
                                     Nageur de haut niveau, étudiant en droit.
@@ -110,7 +110,7 @@ const Project = () => {
                     <Grid item md={6} style={{ textAlign: "center" }}>
                         <Cards
                             imgSrc={team}
-                            title={"Alexandre Verplaetse"}
+                            title={<p>Alexandre Verplaetse</p>}
                             description={
                                 <p className="justify">
                                     Nageur de haut niveau, étudiant en droit.

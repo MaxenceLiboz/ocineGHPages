@@ -279,8 +279,8 @@ const Footer = () => {
                             <Grid item xs={3} />
                             <Grid item xs={6}>
                                 <div className="copyright">
-                                    &copy; Ocina. All rights reserved. Help
-                                    Designed with: HTML5 UP
+                                    &copy; Ocina. All rights reserved. Maxence
+                                    Liboz design help with: HTML5 UP
                                 </div>
                             </Grid>
                             <Grid item xs={3} />
