@@ -49,10 +49,13 @@ const Banner = (props) => {
                                     </div>
                                 </Grid>
                                 <Grid item xs={12} container justify="center">
-                                    <h2>Caracteristique</h2>
+                                    <h2>Tissu haute perfomance</h2>
                                 </Grid>
                                 <Grid item xs={12}>
-                                    <p>Approfondir la carac mis en avant.</p>
+                                    <p>
+                                        Ce tissu est conçu pour etre très
+                                        résistant à tout typd'éffort. 1
+                                    </p>
                                 </Grid>
                             </Grid>
                             <Grid item xs={1} />
@@ -72,9 +75,12 @@ const Banner = (props) => {
                                     />
                                 </div>
                                 <header>
-                                    <h2>Caracteristique</h2>
+                                    <h2>Résistance au chlore</h2>
                                 </header>
-                                <p>Approfondir la carac mis en avant.</p>
+                                <p>
+                                    Nos maillots sont crées pour durer dans le
+                                    temps
+                                </p>
                             </Grid>
                             <Grid item xs={1} />
 
@@ -93,9 +99,13 @@ const Banner = (props) => {
                                     />
                                 </div>
                                 <header>
-                                    <h2>Caracteristique</h2>
+                                    <h2>Design fait main</h2>
                                 </header>
-                                <p>Approfondir la carac mis en avant.</p>
+                                <p>
+                                    Nos design reprenne le principe de concept
+                                    rencontrer lors de la pratique de la
+                                    natation
+                                </p>
                             </Grid>
                             <Grid item xs={1} />
                         </Grid>
@@ -128,7 +138,7 @@ const Banner = (props) => {
             ) : (
                 <div className="border">
                     <section className="intro">
-                        <section className="first">
+                        <section className="first w25">
                             <div className="featured">
                                 <FontAwesomeIcon
                                     color="#0077c2"
@@ -140,12 +150,15 @@ const Banner = (props) => {
                                 />
                             </div>
                             <header>
-                                <h2>Caracteristique</h2>
+                                <h2>Tissu haute perfomance</h2>
                             </header>
 
-                            <p>Approfondir la carac mis en avant.</p>
+                            <p>
+                                Ce tissu est conçu pour etre très résistant à
+                                tout type d'éffort.
+                            </p>
                         </section>
-                        <section className="middle">
+                        <section className="middle w25">
                             <div className="featured">
                                 <FontAwesomeIcon
                                     color="#0077c2"
@@ -157,11 +170,13 @@ const Banner = (props) => {
                                 />
                             </div>
                             <header>
-                                <h2>Caracteristique</h2>
+                                <h2>Résistance au chlore</h2>
                             </header>
-                            <p>Approfondir la carac mis en avant.</p>
+                            <p>
+                                Nos maillots sont crées pour durer dans le temps
+                            </p>
                         </section>
-                        <section className="last">
+                        <section className="last w25">
                             <div className="featured">
                                 <FontAwesomeIcon
                                     color="#0077c2"
@@ -173,9 +188,12 @@ const Banner = (props) => {
                                 />
                             </div>
                             <header>
-                                <h2>Caracteristique</h2>
+                                <h2>Design fait main</h2>
                             </header>
-                            <p>Approfondir la carac mis en avant.</p>
+                            <p>
+                                Nos design reprenne le principe de concept
+                                rencontrer lors de la pratique de la natation
+                            </p>
                         </section>
                     </section>
                     <section className="button">
