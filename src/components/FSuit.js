@@ -25,8 +25,15 @@ const FSuit = () => {
                     <Grid item md={4} sm={12} xs={12}>
                         <Cards
                             imgSrc={SuitF}
-                            title={"Nom du maillot de bain"}
-                            description={"Breve description de l'article"}
+                            title={<>Maillot ARENA multicolor stripes</>}
+                            description={
+                                <>
+                                    Maillot de bain 1 pièce ARENA à bretelles
+                                    fines associées à une large ouverture au
+                                    niveau du dos et offrant un liberté de
+                                    mouvement maximale.
+                                </>
+                            }
                             pageURL="https://www.eurocomswim.com/fr/maillots-loisirs-plage/arena/maillot-de-bain-1-piece-arena-w-multicolor-stripes-challenge-back-one-piece-p-3476.htm?coul_att_detailID=572"
                             button="En savoir plus"
                         />

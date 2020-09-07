@@ -25,8 +25,13 @@ const Accessories = () => {
                     <Grid item md={4} sm={12} xs={12}>
                         <Cards
                             imgSrc={CapFR}
-                            title={"Nom du bonnet"}
-                            description={"Breve description de l'article"}
+                            title={<>Bonnet ARENA drapeau Français</>}
+                            description={
+                                <>
+                                    Bonnet de bain souple et doux aux couleurs
+                                    de la France revisitées de façon tendance
+                                </>
+                            }
                             pageURL="https://www.eurocomswim.com/fr/adultes/arena/bonnet-de-bain-arena-flags-silicone-cap-france-p-3489.htm?coul_att_detailID=572"
                             button="En savoir plus"
                         />

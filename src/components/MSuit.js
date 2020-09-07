@@ -25,8 +25,14 @@ const MSuit = () => {
                     <Grid item md={4} sm={12} xs={12}>
                         <Cards
                             imgSrc={SuitH}
-                            title={"Nom du maillot de bain"}
-                            description={"Breve description de l'article"}
+                            title={<>Boxer ARENA multicolor stripes</>}
+                            description={
+                                <>
+                                    Boxer de bain pour homme ARENA. Coupe Low
+                                    Waist Short 14cm. Muni d'une ceinture à
+                                    élastique et doublé devant.
+                                </>
+                            }
                             pageURL="https://www.eurocomswim.com/fr/maillots-loisirs-plage/arena/boxer-de-bain-arena-m-multicolor-stripes-low-waist-short-p-3487.htm?coul_att_detailID=572"
                             button="En savoir plus"
                         />

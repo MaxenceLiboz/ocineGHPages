@@ -55,7 +55,8 @@ section {
     margin: 0;
 }
 
-.intro .middle {
+.intro .middle,
+.intro .last {
     position: relative;
 }
 
@@ -93,6 +94,10 @@ section {
     margin: 0;
 }
 
+.pdl {
+    padding-left: 1em;
+}
+
 /* Mobile intro */
 .mobileIntro {
     text-align: center;
@@ -123,7 +128,8 @@ section {
 }
 
 .borderIcon {
-    border-top: rgba(230, 230, 230, 0.8) solid 1px !important;
+    border-bottom: rgba(230, 230, 230, 0.8) solid 1px !important;
+    padding: 1em;
 }
 
 /* Featured */
@@ -142,7 +148,7 @@ section {
 }
 
 .featured {
-    left: 15px;
+    left: 0px;
     top: 15px;
     width: 100%;
     margin: -40px 0 40px -30px;

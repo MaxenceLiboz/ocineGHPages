@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useTheme } from "@material-ui/core/styles";
-import { useMediaQuery } from "@material-ui/core";
+import { useMediaQuery, Grid } from "@material-ui/core";
 import ButtonCss from "./CssButton";
 import { withRouter } from "react-router-dom";
 import Constants from "../constants";
@@ -33,55 +33,72 @@ const Banner = (props) => {
             {isMobile ? (
                 <div className="border">
                     <section className="mobileIntro">
-                        <section>
-                            <div className="featured">
-                                <FontAwesomeIcon
-                                    color="#0077c2"
-                                    icon="tint"
-                                    size="5x"
-                                    style={{
-                                        width: "100%",
-                                    }}
-                                />
-                            </div>
-                            <header>
-                                <h2>Caracteristique</h2>
-                            </header>
+                        <Grid container>
+                            <Grid item xs={1} />
+                            <Grid item xs={10} container>
+                                <Grid item xs={12}>
+                                    <div className="featured">
+                                        <FontAwesomeIcon
+                                            color="#0077c2"
+                                            icon="tint"
+                                            size="5x"
+                                            style={{
+                                                width: "100%",
+                                            }}
+                                        />
+                                    </div>
+                                </Grid>
+                                <Grid item xs={12} container justify="center">
+                                    <h2>Caracteristique</h2>
+                                </Grid>
+                                <Grid item xs={12}>
+                                    <p>Approfondir la carac mis en avant.</p>
+                                </Grid>
+                            </Grid>
+                            <Grid item xs={1} />
 
-                            <p>Approfondir la carac mis en avant.</p>
-                        </section>
-                        <section className="borderIcon">
-                            <div className="featured">
-                                <FontAwesomeIcon
-                                    color="#0077c2"
-                                    icon="hand-holding-water"
-                                    size="5x"
-                                    style={{
-                                        width: "100%",
-                                    }}
-                                />
-                            </div>
-                            <header>
-                                <h2>Caracteristique</h2>
-                            </header>
-                            <p>Approfondir la carac mis en avant.</p>
-                        </section>
-                        <section className="borderIcon">
-                            <div className="featured">
-                                <FontAwesomeIcon
-                                    color="#0077c2"
-                                    icon="swimmer"
-                                    size="5x"
-                                    style={{
-                                        width: "100%",
-                                    }}
-                                />
-                            </div>
-                            <header>
-                                <h2>Caracteristique</h2>
-                            </header>
-                            <p>Approfondir la carac mis en avant.</p>
-                        </section>
+                            <Grid item xs={12} className="borderIcon" />
+
+                            <Grid item xs={1} />
+                            <Grid item xs={10}>
+                                <div className="featured">
+                                    <FontAwesomeIcon
+                                        color="#0077c2"
+                                        icon="hand-holding-water"
+                                        size="5x"
+                                        style={{
+                                            width: "100%",
+                                        }}
+                                    />
+                                </div>
+                                <header>
+                                    <h2>Caracteristique</h2>
+                                </header>
+                                <p>Approfondir la carac mis en avant.</p>
+                            </Grid>
+                            <Grid item xs={1} />
+
+                            <Grid item xs={12} className="borderIcon" />
+
+                            <Grid item xs={1} />
+                            <Grid item xs={10}>
+                                <div className="featured">
+                                    <FontAwesomeIcon
+                                        color="#0077c2"
+                                        icon="swimmer"
+                                        size="5x"
+                                        style={{
+                                            width: "100%",
+                                        }}
+                                    />
+                                </div>
+                                <header>
+                                    <h2>Caracteristique</h2>
+                                </header>
+                                <p>Approfondir la carac mis en avant.</p>
+                            </Grid>
+                            <Grid item xs={1} />
+                        </Grid>
                     </section>
                     <section className="button col">
                         <ButtonCss variant="contained" color="primary">
@@ -158,9 +175,7 @@ const Banner = (props) => {
                             <header>
                                 <h2>Caracteristique</h2>
                             </header>
-                            <p style={{ paddingLeft: "1em" }}>
-                                Approfondir la carac mis en avant.
-                            </p>
+                            <p>Approfondir la carac mis en avant.</p>
                         </section>
                     </section>
                     <section className="button">
