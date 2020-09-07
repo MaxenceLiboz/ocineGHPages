@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "68b9e404d0cceac244a66fe75b3afe89",
+    "revision": "e6ff2d57a1b0420406f42d0b5a69ebcd",
     "url": "/ocineGHPages/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ocineGHPages/static/css/2.1295bded.chunk.css"
   },
   {
-    "revision": "8fb05b95a88c8735fcc6",
-    "url": "/ocineGHPages/static/css/main.6ae123e3.chunk.css"
+    "revision": "54cd7918204f83b3ab4c",
+    "url": "/ocineGHPages/static/css/main.633d69f3.chunk.css"
   },
   {
     "revision": "1d6f84d92de97f7a9685",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ocineGHPages/static/js/2.8735f0f9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8fb05b95a88c8735fcc6",
+    "revision": "54cd7918204f83b3ab4c",
     "url": "/ocineGHPages/static/js/main.61f85163.chunk.js"
   },
   {
