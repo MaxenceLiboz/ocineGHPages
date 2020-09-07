@@ -54,7 +54,7 @@ const Banner = (props) => {
                                 <Grid item xs={12}>
                                     <p>
                                         Ce tissu est conçu pour etre très
-                                        résistant à tout typd'éffort. 1
+                                        résistant à tout type d'éffort
                                     </p>
                                 </Grid>
                             </Grid>
